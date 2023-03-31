@@ -1,0 +1,75 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  line-height: 20px;
+}
+
+.price {
+  color: hsl(158, 36%, 37%);
+  display: inline;
+}
+
+.old-price {
+  display: inline;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  padding-top: 0;
+}
+
+div {
+  display: inline-block;
+  margin: 20% 30%;
+  background-color: white;
+  width: 40%;
+  border-radius: 10px;
+}
+
+.product-img {
+  margin-right: 40px;
+  float: left;
+  width: 50%;
+  border-radius: 10px 0 0 10px;
+}
+
+.PERFUME {
+  padding: 30px;
+  padding-bottom: 0px;
+}
+
+.btn {
+  position: relative;
+  top: 30px;
+  background: hsl(158, 36%, 37%);
+  background-image: -webkit-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: -moz-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: -ms-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: -o-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: linear-gradient(to bottom, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: white;
+  font-size: 15px;
+  padding: 15px 60px 15px 60px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
